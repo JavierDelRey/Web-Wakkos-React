@@ -1,0 +1,114 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+}
+
+.icon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: var(--text-color);
+    border-radius: var(--border-radius-md);
+}
+
+aside {
+    display: flex;
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    padding: var(--padding-md);
+}
+
+.nav, .footer {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-md);
+    padding: var(--padding-md);
+    background-color: var(--secondary-bg);
+    border-radius: var(--border-radius-lg);
+}
+
+.footer__icon {
+    background-color: var(--footer-icon-bg);
+}
+
+.arrow {
+    color: var(--text-color);
+    display: flex;
+    margin-left: auto;
+    background-color: var(--arrow-bg);
+    border-radius: var(--border-radius-sm);
+    height: 40px;
+    width: 40px;
+}
+
+.arrow div {
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    flex-grow: 1;
+    margin-top: var(--padding-lg);
+}
+
+.content1 {
+    padding: var(--padding-lg);
+    line-height: var(--line-height-lg);
+    margin-bottom: var(--padding-lg);
+}
+
+.footer {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+.line {
+    background-color: var(--line-color);
+    width: 100%;
+    height: 1px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-md);
+}
+
+.main {
+    flex-grow: 1;
+    background-color: var(--main-bg);
+    margin: var(--padding-md);
+    border-radius: var(--border-radius-sm);
+}

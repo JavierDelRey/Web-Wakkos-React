@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #081425;
+    --text-color: white;
+    --primary-color: #1F83FF;
+    --secondary-bg: #142030;
+    --footer-icon-bg: #091A32;
+    --arrow-bg: #2B3645;
+    --line-color: #212B3B;
+    --main-bg: white;
+    --icon-size: 60px;
+    --border-radius-lg: 20px;
+    --border-radius-md: 16px;
+    --border-radius-sm: 10px;
+    --padding-md: 10px;
+    --padding-lg: 20px;
+    --gap-md: 10px;
+    --line-height-lg: 40px;
+}
+
